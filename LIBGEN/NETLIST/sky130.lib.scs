@@ -1,0 +1,14 @@
+simulator lang=spectre
+
+parameters process_mc_factor=0
+parameters corner_factor=0
+parameters mismatch_factor=0
+* Process parameters
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=fet_tt
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=res_nom
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=cap_nom
+
+* Main Spectre Model File
+include "/skywater/V2.1.302/MODELS/common/spectre/models.scs"
+
+

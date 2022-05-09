@@ -1,0 +1,20 @@
+// Generated for: spectre
+// Generated on: May  8 23:05:46 2022
+// Design library name: test
+// Design cell name: inv_1x
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: test
+// Cell name: inv_1x
+// View name: schematic
+subckt INV1X IN ZN VDD VSS
+MN0 (ZN IN VSS VSS) nmos_lvt nf=1 w=0.42 l=0.15 m=1 as=0.1113 ad=0.1113 \
+        ps=0.95 pd=0.95 nrd=0.333333 nrs=0.333333 sa=0.265 sb=0.265 \
+        sd=0.28
+MP0 (ZN IN VDD VDD) pmos nf=2 w=0.84 l=0.15 m=1 as=0.2226 ad=0.1176 ps=1.9 \
+        pd=0.56 nrd=0.166667 nrs=0.166667 sa=0.265 sb=0.265 sd=0.28
+ends INV1X 
+
+// dspf_include "inv_1x.pex.netlist"

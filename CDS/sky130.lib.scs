@@ -1,0 +1,45 @@
+section top_tt
+* MC option
+parameters process_mc_factor=0
+parameters corner_factor=0
+parameters mismatch_factor=0
+* Process parameters
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=fet_tt
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=res_nom
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=cap_nom
+
+* Main Spectre Model File
+include "/skywater/V2.1.302/MODELS/common/spectre/models.scs"
+
+endsection
+
+section top_ff
+* MC option
+parameters process_mc_factor=0
+parameters corner_factor=1
+parameters mismatch_factor=0
+* Process parameters
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=fet_ff
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=res_low
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=cap_low
+
+* Main Spectre Model File
+include "/skywater/V2.1.302/MODELS/common/spectre/models.scs"
+
+endsection
+
+section top_ss
+* MC option
+parameters process_mc_factor=0
+parameters corner_factor=1
+parameters mismatch_factor=0
+* Process parameters
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=fet_ss
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=res_high
+include "/skywater/V2.1.302/MODELS/common/spectre/parameters.scs" section=cap_high
+
+* Main Spectre Model File
+include "/skywater/V2.1.302/MODELS/common/spectre/models.scs"
+
+endsection
+

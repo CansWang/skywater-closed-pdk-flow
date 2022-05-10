@@ -6,7 +6,7 @@
 (envOpts cpfIsVMSEnabled) t
 (envOpts definitionFiles) nil
 (envOpts displayToolTip) t
-(envOpts dspfFile) ("\"/home/users/canswang/cds_sky130/PEX/inv_1x.pex.netlist\" ")
+(envOpts dspfFile) nil
 (envOpts emAnaType) "Dynamic"
 (envOpts emLayerMap) ""
 (envOpts emOnlyICTFile) ""
@@ -48,6 +48,8 @@
 (envOpts setTopLevelAsSubckt) nil
 (envOpts sst2usecolon) nil
 (envOpts stimulusFile) nil
+(envOpts stopViewList) ("spectre")
+(envOpts switchViewList) ("spectre" "cmos_sch" "cmos.sch" "schematic" "veriloga")
 (envOpts termDirectionMismatch) "ignore"
 (envOpts termMismatch) "ignore"
 (envOpts userCmdLineOption) ""

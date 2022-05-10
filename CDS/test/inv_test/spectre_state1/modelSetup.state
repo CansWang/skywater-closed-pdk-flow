@@ -1,1 +1,1 @@
-(("# models.all.scs" "tt") ("# models.scs" "") ("# parameters.scs" "fet_tt") ("# parameters.scs" "res_nom") ("# parameters.scs" "cap_nom") ("/home/users/canswang/cds_sky130/sky130.lib.scs" "top_tt"))
+(("# models.all.scs" "tt") ("# models.scs" "") ("# parameters.scs" "fet_tt") ("# parameters.scs" "res_nom") ("# parameters.scs" "cap_nom") ("/home/users/canswang/skywater-closed-pdk-flow/CDS/sky130.lib.scs" "top_tt"))

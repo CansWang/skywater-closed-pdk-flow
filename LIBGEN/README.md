@@ -8,7 +8,7 @@ source setup.csh
 
 ## Folder structure
 ```
-**LIBEN**
+**LIBGEN**
   |-- NETLIST        // Contains design netlist and simulation model, put your design here
   |-- LIBRARY        // Generated timing model file
   |-- TEMPLATE       // Liberty characterization template, put template here
